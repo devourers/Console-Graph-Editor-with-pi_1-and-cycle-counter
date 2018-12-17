@@ -89,8 +89,8 @@ void Graph::getGraphCode() {
 		codeFile << *i << std::endl;
 	}
 	codeFile << "}" << std::endl;
-	codeFile << "//Fundamental group: " << countFundGroup << std::endl;
-	codeFile << "//Number of cycles: " << findMaxTree << std::endl;
+	codeFile << "//Fundamental group: " << countFundGroup() << std::endl;
+	codeFile << "//Number of cycles: " << findMaxTree() << std::endl;
 	codeFile.close();
 }
 
