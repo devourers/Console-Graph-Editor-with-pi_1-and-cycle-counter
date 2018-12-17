@@ -1,0 +1,7 @@
+﻿  Graph.cpp
+c:\users\daniel rybalko\source\repos\consolegrapheditordot\consolegrapheditordot\graph.cpp(98): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\daniel rybalko\source\repos\consolegrapheditordot\consolegrapheditordot\graph.cpp(104): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\daniel rybalko\source\repos\consolegrapheditordot\consolegrapheditordot\graph.cpp(108): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\daniel rybalko\source\repos\consolegrapheditordot\consolegrapheditordot\graph.cpp(114): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\daniel rybalko\source\repos\consolegrapheditordot\consolegrapheditordot\graph.cpp(120): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleGraphEditorDot.vcxproj -> C:\Users\Daniel Rybalko\source\repos\ConsoleGraphEditorDot\Debug\ConsoleGraphEditorDot.exe

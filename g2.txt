@@ -1,0 +1,6 @@
+digraph g2{
+a -> a;
+a -> b;
+b -> c;
+c -> a;
+}
