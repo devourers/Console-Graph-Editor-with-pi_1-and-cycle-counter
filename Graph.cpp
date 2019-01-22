@@ -148,3 +148,32 @@ std::string Graph::countFundGroup() {
 		return "0";
 	}
 };
+
+void Graph::checkNodeList(std::string a) {
+	std::vector<Node> nodeVector(nodeList.begin(), nodeList.end());
+	int iterator = 0;
+	for (int i = 0; i < nodeList.size(); i++) {
+		if (nodeVector[i].getName() == a) {
+			iterator++;
+		}
+	}
+	if (iterator == 0) {
+		nodeList.push_back(Node(a));
+	}
+}
+
+Node Graph::findNode(std::string a){
+	std::vector<Node> nodeVector(nodeList.begin(), nodeList.end());
+	int check = 0;
+	for (int i = 0; i < nodeList.size(); i++) {
+		if (nodeVector[i].getName() == a) {
+			return nodeVector[i];
+			check++;
+		}
+	}
+	if (check == 0) {
+		Node added = Node(a);
+		nodeList.push_back(added);
+		return added;
+	}
+}

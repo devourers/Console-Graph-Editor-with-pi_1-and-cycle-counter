@@ -32,8 +32,10 @@ public:
 	void addNode(Node);
 	void addLine(Line);
 	void setName(std::string);
+	void checkNodeList(std::string);
 	std::string getName();
 	void getGraphCode();
+	Node findNode(std::string a);
 	Graph();
 	~Graph();
 	int findMaxTree();
